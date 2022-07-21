@@ -2,7 +2,9 @@
 title: "R Markdown Test for github"
 author: "Hoffman"
 date: "7/21/2022"
-output: html_document
+output: github_documement
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -22,9 +24,15 @@ summary(cars)
 ## Including Plots
 
 You can also embed plots, for example:
-
+ 
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+R markdown script (test).Rmd --> R markdown script (test).md
+
+
+
+
